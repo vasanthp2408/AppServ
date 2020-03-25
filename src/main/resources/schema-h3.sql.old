@@ -1,0 +1,22 @@
+CREATE TABLE EMPLOYEE
+        (
+        id NUMBER(10) NOT NULL,
+        name VARCHAR2(50) NOT NULL,
+        PRIMARY KEY(id)
+        );
+CREATE TABLE TEST_DATA
+        (
+        ID NUMBER(10) NULL,
+        TEST_DESC VARCHAR2(1000) NULL,
+        INPUT_URI VARCHAR2(100) NULL,
+        INPUT_JSON CLOB,
+        EXP_RESP VARCHAR2(10) NULL,
+        EXPECTED_JSON CLOB,
+        RES_RESP VARCHAR2(10) NULL,
+        RESULT_JSON CLOB,
+        PRIMARY KEY(id)
+        );
+        
+                
+        
+        

@@ -1,0 +1,25 @@
+INSERT INTO EMPLOYEE (id, name) VALUES (1, 'DHONI');
+INSERT INTO EMPLOYEE (id, name) VALUES (2, 'KHOLI');
+
+
+INSERT INTO TEST_DATA
+        (
+        ID NUMBER,
+        TEST_DESC,
+        INPUT_URI,
+        INPUT_JSON,
+        EXP_RESP,
+        EXPECTED_JSON,
+        RES_RESP,
+        RESULT_JSON
+        )VALUES(
+        10,
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        'test',
+        );
+
